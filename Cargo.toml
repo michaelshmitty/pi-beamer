@@ -1,0 +1,9 @@
+[package]
+name = "pi-beamer"
+version = "0.1.0"
+authors = ["Michael Smith <m@michaelsmith.be>"]
+
+[dependencies.sdl2]
+version = "*"
+default-features = false
+features = ["image"]
